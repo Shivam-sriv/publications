@@ -1,0 +1,85 @@
+
+
+
+
+
+
+.breadcrumb-item.active
+{
+font-style: italic;
+/* font-weight: 500; */
+color: #898989 !important;
+font-family: 'Poppins', sans-serif;
+}
+
+.marketing .tab-pane {
+    position: relative;
+    height: 502px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color:  #fff !important;
+}
+.nav-pills-custom .nav-link.active,.nav-pills-custom-right .nav-link.active {
+    color: #f44556 !important;
+    background-color: #fff !important;
+}
+.nav-pills-custom .nav-link,.nav-pills-custom-right .nav-link {
+    color: #fff!important;
+    background: #f44556!important;
+    position: relative!important;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 15px;
+    text-align:left;
+}
+.nav-pills-custom .nav-link::before {
+    content: '';
+    display: block;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+.tab-inner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 8%;
+}
+.tab-inner p {
+    color: #2f2f2f;
+    font-size: 14px;
+    line-height: 21px;
+}
+.para {
+    text-align: justify;
+}
+.tab-inner h4
+{
+    color: #0c2e8a;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-pills-custom-right .nav-link::before {
+    content: '';
+    display: block;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 34%;
+    right: 259px;
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+.nav-pills-custom-right .nav-link.active::before {
+    opacity: 1;
+}
